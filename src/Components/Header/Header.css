@@ -1,0 +1,397 @@
+.You__tube__navbar__wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.You__tube__logo__wrap{
+    display: flex;
+    align-items: center;
+    column-gap: 59px;
+  
+   
+}
+.You__tube__navbar__item{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+   
+}
+.You__tube__navbar__user{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    
+}
+
+.input__wrapp{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.Search__input{
+width: 830px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 22px;
+border: transparent;
+padding-left: 20px;
+color: #30384C;
+text-transform: capitalize;
+}
+::placeholder{
+    color: #30384C;
+font-family: Muli;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+opacity: 0.3;
+line-height: normal;
+}
+.Search__icon{
+position: absolute;
+font-size: 19px;
+right: 13px;
+top: 15px;
+cursor: pointer;
+}
+.svip{  
+    display: none;
+}
+
+@media (max-width:568px) {
+    .svip{
+    display: block;
+        
+    }
+    .ApiWrapps{
+    margin-left: 90px;
+    }
+    .input{
+    display: none;
+    margin-top: -20px;
+    }
+    .Search__input{
+        max-width: 500px;
+        width: 100%;
+        width: 292px;
+        margin-left: -88px;
+    }
+    .You__tube__logo__wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .You__tube__Servicess__blog{
+        display: none;
+    }
+    .youbtn{
+        display: none;
+    }
+    .block{
+        display: none;
+    }
+    .youparametr{
+        display: none;
+    }
+   .links{
+    display: none;
+   }
+   .main{
+    margin-left: -50px !important;
+   overflow-x: hidden;
+   }
+   .Bottomlist__you__tube{
+    display: none;
+   }
+   .You__tube__left__navbar{
+    display: flex !important;
+   }.Navbar__list__item{
+    font-size: 28px !important;
+   }
+   .Navbar__list{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    position: absolute;
+    flex-direction: unset !important;
+    bottom: 39px;
+    background-color: rgb(255, 255, 255);
+    column-gap: 70px !important;
+    justify-content: center !important;
+    margin-left: -90px;
+    height: 61px;
+    width: 480px;
+    font-size: 28px;
+
+
+
+   }
+   .css-i4bv87-MuiSvgIcon-root{
+    font-size: 28px!important;
+   }
+   
+   .Navbar__list__item{
+    display: flex;
+   }
+   .You__tube__navbar__wrapp{
+    position: fixed;
+    top: 0px;
+  left: 0;
+  right: 0;
+  padding-left: 68px;
+  padding-right: 68px;
+  color: aliceblue;
+   background-color: rgb(255, 255, 255);
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+.vediose{
+    width: 400px !important;
+    height: 300px !important;
+}
+   
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.active{
+    color: red;
+}
+.Subscription{
+color: #30384C;
+}
+.Navbar__list__item{
+    font-size: 20px;
+}
+.You__tube__Servicess__blog__item{
+    font-size: 20px;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 20px !important;
+}
+.You__tube__Servicess__blog__item{
+   font-size: 20px;
+}
+.You__tube__Servicess__blog{
+    display: flex;
+justify-content: flex-start;
+flex-direction: column;
+column-gap: 10px;
+
+}
+.You__tube__left__navbar{
+    display: flex;
+    margin-top: 20px;
+}
+.Navbar__list{
+    display: flex;
+   
+    flex-direction: column;
+    row-gap: 28px;
+    column-gap: 14px;
+  
+}
+.You__tube__Servicess__blog_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    margin-top: 60px;
+}
+
+
+.links{
+    display: flex;
+align-items: center;
+  column-gap: 15px;
+  color: #898989;
+}
+
+.youwrappapi{
+    display: flex;
+ 
+
+}
+
+.Vedios__wrapper{
+  
+
+  margin-left: 70px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+
+}
+.youwrappapi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.You__tube__navbar__wrapp{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding-left: 60px;
+    padding-right: 68px;
+    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.imgs{
+    border-radius: 10px;
+}
+@media (max-width:768px) {
+    .Search__input{
+        max-width: 300px;
+    }
+    
+  .youparametr{
+    display: none;
+  }
+  .You__tube__navbar__wrapp{
+    position: fixed;
+    top: 0px;
+  left: 0;
+  right: 0;
+  padding-left: 68px;
+  padding-right: 68px;
+  color: aliceblue;
+   background-color: rgb(255, 255, 255);
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.vediose{
+    width: 700px;
+    height: 400px;
+}
+
+  
+
+   
+}
+.none{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-5px);
+}
+
+.block{
+    transform: translateX(5px);
+    transition: 1s;
+}
+.top{
+
+}
+
+
+
+.more__btn{
+  
+    width: 150px;
+  
+}
+
+.absalute{
+   display: none;
+   transition: 1s;
+}
+.more__btn{
+    padding: 0;
+    margin: 0;
+}
+.Vedios__wrappers{
+    /* display: flex; */
+}
+.imgs__you{
+       max-width: 330px;
+    width: 100%;
+    height: 212px;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+.vedio__title__h1{
+    padding: 0;
+    margin: 0;
+  font-size: 16px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.imgs__you:hover{
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+
+.swiper-slide .swiper-slide-prev {
+    width: 100px;
+}
+@media (max-width:768px) {
+    .mySwiper{
+        display: none;
+    }
+ 
+    
+}
+.imgs__you{
+
+  
+}
+.ApiWrapps{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.Imgtime{
+
+    margin-top: -30px;
+    margin-left: 150px;
+    color: aliceblue;
+
+}
+.sun{
+    background-color: #000000;
+    color:aliceblue ;
+    transition: 1s;
+}
+.imgs__you:hover{
+    transform: scale(1.1);
+
+}
+.monsunbtn{
+    font-size: 23px;
+    display: flex;
+   
+}
+.sons{
+    color: #000;
+    transition: 1s;
+}
+.mons{
+    color: #Ff2;
+    transition: 1s;
+}
+body{
+    transition: 1s;
+}
+.youlogo {
+    font-size: 39px;
+}

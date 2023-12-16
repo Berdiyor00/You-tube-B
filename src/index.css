@@ -1,0 +1,172 @@
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+padding-left:22px ;
+padding-right:22px ;
+
+}
+nav{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+*{
+    list-style: none;
+    text-decoration: none;
+box-sizing: border-box;
+
+
+}
+body{
+    width: 100%;
+    margin-left: 10px ;
+    margin: 0 auto;
+}
+.youicons{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.Navbars{
+position: fixed;
+    z-index:1;
+    top: 70px;
+    height: 100vh;
+}
+
+.wrapperoutlet{
+display: flex;
+}
+.allwrapp{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 83px;
+    justify-content: center;
+   
+}
+.video__titlea{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -1;
+}
+.Search__icon{
+    color: black;
+
+}
+.errorTitle{
+    color: red;
+}
+.Imgtimel{
+    position: absolute;
+    margin-top: -65px;
+    color: aliceblue;
+    margin-left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.youlogo {
+    font-size: 39px;
+}
+form{
+    /* margin-left: 300px; */
+    margin-top: 200px;
+  
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+   
+ 
+}
+input{
+  
+    width: 670px;
+    padding-left: 20px;
+text-transform: capitalize;
+border-radius: 50px !important;
+border: none;
+
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+
+}
+.Btn{
+    background-color: lightcoral;
+    border-radius: 25px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+        height: 60px;
+}
+
+@media (max-width:768px) {
+    input{
+  
+        width: 370px !important;
+        padding-left: 20px;
+    text-transform: capitalize;
+    border-radius: 50px !important;
+    border: none;
+  display: flex;
+  justify-content: center;
+    border-bottom: 1px solid #000;
+ border-radius: 0 !important;
+ margin: 0 auto;
+
+
+    }    
+    .Btn{
+        background-color: lightcoral;
+        border-radius: 25px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+            height: 60px;
+            width: 370px !important;
+            margin: 0 auto;
+    }
+    
+    .Btns{
+        margin-left: 200px !important;
+    }
+    
+    
+}.Btns{
+    margin: 0;padding: 0;
+}
+.vediosapp{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Btns{
+    background-color: blue;
+    font-size: 28px;
+    padding: 10px 20px;
+    margin-top: 19px;
+    border-radius: 15px;
+    transition: 1.7s;
+    color: aliceblue;
+}
+.Btns:hover{
+    background-color: pink;
+    color: rgb(238, 4, 156);
+    border-top:1px solid red ;
+    border-top-width: 10px;
+    border-left-color:blue; 
+    border-left: 8px solid blue;
+    border-top-width: 10px;
+    transition: 0.7s;
+    
+}
+.youlogo{
+    color: red;
+}
